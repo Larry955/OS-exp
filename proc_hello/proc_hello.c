@@ -1,10 +1,12 @@
 /*
- * fs/proc/proc_hello.c - add a directory named hello under proc, 
+ * OS-exp3 Implementation
+ *
+ * Add a directory named hello under proc, 
  * and a file named world under hello, whose content is "Hello World"
  *
- * Copyright(C) 2019 Larry <https://github.com/Larry955/OS-exp.git>
+ * Copyright (C) 2019 Larry <https://github.com/Larry955/OS-exp.git>
  *
- * This file is released under the GPL
+ * Released under the GPL.
  */
 
 #include <linux/module.h>
@@ -46,7 +48,7 @@ void create_new_proc_entry(void)
     }
     /*create a file named world, add read attribute to this file using proc_fops*/
     proc_create("world",0,proc_parent,&proc_fops);
-    msg=" Hello World ";	/*file content*/
+    msg="hello world\n";	/*file content*/
     len=strlen(msg);
     temp=len;
     printk(KERN_INFO "1.len=%d",len);
