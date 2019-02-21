@@ -2,7 +2,7 @@
  * OS-exp3 Implementation
  *
  * Add a directory named hello under proc, 
- * and a file named world under hello, whose content is "Hello World"
+ * and a file named world under hello, whose content is "hello world"
  *
  * Copyright (C) 2019 Larry <https://github.com/Larry955/OS-exp.git>
  *

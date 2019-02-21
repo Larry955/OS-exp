@@ -1,4 +1,3 @@
-ccflags-y=-Wno-error
 ifneq ($(KERNELRELEASE),) 
 		obj-m := proc_hello.o
 else

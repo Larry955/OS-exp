@@ -2,10 +2,9 @@
  * OS-exp4 Implementation
  *
  * Program a module to create a subdirectory in sys/fs called 
- * /sys/kernel/hello, and a file named world under this directory, 
+ * hello, and a file named world under this directory, 
  * whose content is "hello world".
  *
- * Copyright (C) 2004-2007 Greg Kroah-Hartman <greg@kroah.com>
  * Copyright (C) 2019 Larry <https://github.com/Larry955/OS-exp.git>.
  *
  * Released under the GPL.
