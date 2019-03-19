@@ -23,4 +23,5 @@ sudo insmod proc_hello.ko   # install this module if you have compiled it succes
 ![insmod](https://github.com/Larry955/OS-exp/blob/master/imgs/insmod.png)
 
 Following these steps above, you shall see a "**hello**" directory in **/proc**, and a file called "**world**" under "hello". Cat world and you will print "**hello world**" if everything goes well.
+
 ![proc_hello](https://github.com/Larry955/OS-exp/blob/master/imgs/proc_hello.png)
